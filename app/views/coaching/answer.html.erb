@@ -1,0 +1,24 @@
+<br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-xs-offset-3">
+      <blockquote>
+        <p><%= @question %></p>
+        <footer>you</footer>
+      </blockquote>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-xs-offset-3">
+      <blockquote>
+        <p><%= @coach_response %></p>
+        <footer>Your coach</footer>
+      </blockquote>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-xs-offset-3 text-center">
+      <%= link_to "Ask new question", '/ask' %>
+    </div>
+  </div>
+</div>
